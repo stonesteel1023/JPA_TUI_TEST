@@ -1,7 +1,6 @@
 # JPA_TUI_TEST
 for Text User Interface
 
-
 ## mySQL
 ### 1. use mydb;
 
@@ -21,7 +20,7 @@ CREATE TABLE `car` (
 INSERT INTO `car` VALUES (3,'Tesla','X',2019),(4,'Toyota','Camry',1988);
 ```
 
-## convert to JPA project and setting persistence.xml
+## 3. convert to JPA project and setting persistence.xml
 ```
 	<persistence-unit name="CarProject"
 		transaction-type="RESOURCE_LOCAL">
@@ -42,3 +41,6 @@ INSERT INTO `car` VALUES (3,'Tesla','X',2019),(4,'Toyota','Camry',1988);
 		</properties>
 	</persistence-unit>
   ```
+
+## 4. start program
+- StartProgram.java Ctrl+F11

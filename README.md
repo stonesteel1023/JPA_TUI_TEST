@@ -2,9 +2,10 @@
 for Text User Interface
 
 ## mySQL
-### 1. use mydb;
 
-### 2. CREATE TABLE
+- use mydb;
+
+- CREATE TABLE
 ```sqk
 CREATE TABLE `car` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
@@ -15,12 +16,12 @@ CREATE TABLE `car` (
 );
 ```
 
-### 3. INSERT
+- INSERT
 ```sql
 INSERT INTO `car` VALUES (3,'Tesla','X',2019),(4,'Toyota','Camry',1988);
 ```
 
-## 3. convert to JPA project and setting persistence.xml
+## convert to JPA project and setting persistence.xml
 ```
 	<persistence-unit name="CarProject"
 		transaction-type="RESOURCE_LOCAL">
@@ -42,5 +43,6 @@ INSERT INTO `car` VALUES (3,'Tesla','X',2019),(4,'Toyota','Camry',1988);
 	</persistence-unit>
   ```
 
-## 4. start program
+## start program
+
 - StartProgram.java Ctrl+F11
